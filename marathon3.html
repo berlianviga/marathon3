@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <img src="assets/ILC.png">
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#profil"> Profil</a></li>
+            <li><a href="#kegiatan">Kegiatan</a></li>
+            <li><a href="#registrasi">Registrasi</a></li>
+        </ul>
+    </nav>
+    <div style="display: flex;">
+    <main>
+        <section id="profil" class="profil">
+            <h2>Profil</h2>
+            <img src="assets/ilcIG.png" alt="instagram ILC">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facilis, pariatur neque exercitationem 
+                soluta magnam dolores quis voluptas consectetur sunt suscipit quod itaque nisi alias aliquam, officiis 
+                quas quia doloribus!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, corrupti ipsam quas 
+                earum animi beatae nesciunt molestiae placeat blanditiis dolorem
+                tenetur numquam ab voluptatum aperiam neque non, sunt explicabo delectus?</p>
+            </article>
+        </section>
+        <section id="kegiatan" class="kegiatan">
+            <h2>Kegiatan</h2>
+            <img src="assets/event.jpg" alt="kegiatan ilc">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est ullam pariatur placeat, ex totam 
+                laborum fuga officiis quis inventore dolores, quod minus quaerat perspiciatis enim? Itaque sequi 
+                dignissimos quisquam?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perferendis 
+                eos odio architecto vero fugiat eius cupiditate dolore tempore repudiandae? Voluptatum atque eius fuga 
+                deserunt ipsa sit quo a quisquam.</p>
+            </article>
+        </section>
+        <section id="registrasi" class="registrasi">
+            <h2>Registrasi</h2>
+        
+            <form>
+                <h3>Form Registrasi</h3>
+                <label for="email">Email : </label> <br>
+                <input type="email" name="email" placeholder="Type email here" required>
+                <br><br>
+                <input type="password" id="password" placeholder="password">
+                <br><br>
+                <label for="file">Foto Profile : </label> <br>
+                <input type="file" id="file">
+                <br><br>
+                <label for="date">Tanggal Lahir : </label> <br>
+                <input type="date" id="date">
+                <br><br>
+                <label for="gender">Gender : </label> <br>
+                <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                </select>
+                <br><br>
+                <button type="submit" id="submit-form">Daftar</button>
+
+            </form>
+                <img src="assets/Logo-ILC.png" alt="logo ilc">
+        </section>
+        
+    </main>
+    <aside class="sidebar">
+        <h3>Logo ILC</h3>
+        <h4 id="ilc">Informatics Learning Community</h4>
+        <img src="assets/Logo-ILC.png" alt="logo ILC">
+        <h4 id="txtlogo">LOGO</h4>
+        <h4 id="info">Informasi</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit, deserunt tempore dolores cupiditate nostrum repudiandae ipsam sapiente necessitatibus dolorum cum, sed voluptatibus voluptatum quam iste, molestiae excepturi magni! Explicabo!</p>
+    </aside>
+    </div>
+    <footer>
+        <p class="copyright">Copyrigth 2023 ILC</p>
+    </footer>
+</body>
+</html>
+
